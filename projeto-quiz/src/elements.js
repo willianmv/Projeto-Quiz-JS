@@ -1,3 +1,5 @@
+//Funções que criam dinamicamente elementos HTML
+
 export function h2(text){
     const h2 = document.createElement('h2');
     h2.textContent = text;
