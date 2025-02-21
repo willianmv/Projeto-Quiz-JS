@@ -37,11 +37,15 @@ export async function createQuestion(text = 'Escreva sua pergunta...',
     }){
         const body = JSON.stringify({text: text, points: points});
 
-        await fetch('http://localhost:3000/questions', {
+        const response = await fetch('http://localhost:3000/questions', {
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: body
-        })
+        });
+
+        if(!response.ok) return alert('Erro ao criar uma nova pergunta');
+
+        return await response.json();
 }
 
 //Requisição PUT - atualizar dados da pergunta
