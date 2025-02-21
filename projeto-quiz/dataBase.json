@@ -1,26 +1,15 @@
 {
   "questions": [
     {
-      "text": "Teste de pergunta-01",
+      "text": "Escreva sua pergunta...",
       "points": {
-        "fullyDisagree": "13598",
+        "fullyDisagree": "26266",
         "partiallyDisagree": "26266",
-        "dontKnow": "31818",
-        "partiallyAgree": "13598",
+        "dontKnow": "26266",
+        "partiallyAgree": "26266",
         "fullyAgree": "26266"
       },
-      "id": "5e27"
-    },
-    {
-      "text": "Escreva sua pergunta...teste=2",
-      "points": {
-        "fullyDisagree": "13598",
-        "partiallyDisagree": "26266",
-        "dontKnow": "31818",
-        "partiallyAgree": "13598",
-        "fullyAgree": "26266"
-      },
-      "id": "695d"
+      "id": "d4c7"
     }
   ],
   "results": [

@@ -62,3 +62,8 @@ export async function updateQuestion(questionId, text, points){
 export async function deleteQuestion(questionId){
     await fetch(`http://localhost:3000/questions/${questionId}`, {method: "DELETE"});
 }
+
+
+export async function findResult(resultId) {
+    return await fetch(`http://localhost:3000/results/${resultId}`).then((response) => response.json())
+  }
